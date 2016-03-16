@@ -1,7 +1,66 @@
 // Styles for the header
-row{
-  border-width: 1px;
-  border-color: $turquoise;
+.search{
+ width: 25em;
+ height: 2.5em;
+ border-color: $grey;
+}
+
+#menu{
   background-color: $turquoise;
-  text-align:center;
-};
+  text-align: center;
+  color: white;
+  font-family: Bernard MT Condensed;
+  font-size: 16px;
+  cursor:pointer;
+  height: 1.5em;
+  }
+
+#col1{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 1.5em;
+}
+
+#col2{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 1.5em;
+}
+
+#col3{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 1.5em;
+}
+
+#col4{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 1.5em;
+}
+
+#col5{
+  border-left: 1px solid white;
+  height: 1.5em;
+}
+
+  #hero{
+  background-color: $dark;
+  color: white;
+  font-family: Brittanic Bold;
+}
+
+.introduction {
+  font-size: 17px;
+}
+
+  #button{
+  width: 7em;
+  height: 2em;
+  border-radius: 5px;
+  border: 3px solid white;
+  text-align: center;
+  padding: 5px;
+  cursor:pointer;
+}
+
