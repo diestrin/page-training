@@ -45,18 +45,31 @@
 }
 
 .products{
-  height: 30em;
-  margin-top: 1em;
+  height: 35em;
+  margin-top: 3em;
 }
 
 .product{
-  height: 300px;
-  width: 300px;
-  border: 1px solid $grey;
+  height: 200px;
+  width: 200px;
+  border: 2px solid $grey;
+  border-bottom: 5px solid $turquoise1;
+  text-align: center;
 }
 
-.wshoes-blackgreen{
-  height: 150px;
+.item{
+  height: 100px;
+  width: 120px;
+  margin-top: 1em;
+}
+
+.jeans{
+  height: 100px;
   width: 150px;
 }
+
+.line2{
+  margin-top: 3em;
+}
+
 
