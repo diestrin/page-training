@@ -1,1 +1,76 @@
 // Styles for the header
+.header{
+  margin-top: 10px;
+}
+
+.logo{
+  background: url("../images/companyname.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 6em;
+  height: 2em;
+}
+
+.search{
+  background: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 380px;
+}
+
+.price{
+  background: url("../images/counter.png");
+  background-repeat: no-repeat;
+  width: 6em;
+  height: 2.5em;
+}
+
+#menu{
+  font-size: 10px;
+  background-color: $turquoise;
+  color: $white;
+  text-align: center;
+}
+
+#menu div{
+  margin-top: 9px;
+  font-weight: bold;
+}
+
+.hero{
+  background-color: $turquoise1;
+  color: $white;
+  height: 300px;
+}
+
+.img-hero{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.text-hero{
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.text-hero p{
+  font-size: 16px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.shop-hero{
+  background-color: $turquoise1;
+  color: $white;
+  border: 2px solid $white;
+}
+

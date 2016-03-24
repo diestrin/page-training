@@ -1,0 +1,62 @@
+.marketing{
+  height: 150px;
+}
+
+.mark-shoe{
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.img-shoe{
+  height: 6em;
+  width: 12em;
+}
+
+.mark-tshirt{
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.img-tshirt{
+  height: 9em;
+  width: 9em;
+}
+
+.mark-short{
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.img-short{
+  height: 10em;
+  width: 9em;
+}
+
+.title{
+  height: 70px;
+  background-color: $turquoise1;
+  color: $white;
+}
+
+.products{
+  height: 30em;
+  margin-top: 1em;
+}
+
+.product{
+  height: 300px;
+  width: 300px;
+  border: 1px solid $grey;
+}
+
+.wshoes-blackgreen{
+  height: 150px;
+  width: 150px;
+}
+
