@@ -1,0 +1,53 @@
+.marketing{
+  height: 150px;
+}
+
+.mark{
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: $white;
+}
+
+.img-shoe{
+  height: 6em;
+  width: 12em;
+}
+
+.img-tshirt{
+  height: 9em;
+  width: 9em;
+}
+
+.img-short{
+  height: 10em;
+  width: 9em;
+}
+
+.title{
+  height: 70px;
+  background-color: $turquoise1;
+  color: $white;
+}
+
+.products{
+  height: 37em;
+  margin-top: 3em;
+}
+
+.product{
+  height: 220px;
+  border: 2px solid $grey;
+  border-bottom: 5px solid $turquoise1;
+  text-align: center;
+}
+
+.item{
+  height: 100px;
+  margin-top: 1em;
+}
+
+.second-line{
+  margin-top: 3em;
+}
+
+

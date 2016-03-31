@@ -63,7 +63,8 @@ gulp.task('html', ['styles', 'scripts', 'inject'], () => {
 gulp.task('inject', () => {
   return gulp.src('app/*.html')
   .pipe($.fileInclude('@@'))
-  .pipe(gulp.dest('.tmp'));
+  .pipe(gulp.dest('.tmp'))
+  .pipe(reload({stream: true}));
 });
 
 gulp.task('images', () => {
