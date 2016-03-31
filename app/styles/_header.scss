@@ -30,11 +30,18 @@
   background-color: $turquoise;
   color: $white;
   text-align: center;
+  text-decoration: none;
+  height: 2.5em;
 }
 
 #menu div{
-  margin-top: 9px;
+  margin-top: 5px;
   font-weight: bold;
+  cursor: pointer;
+}
+#menu div a{
+  color: $white;
+  text-decoration: none;
 }
 
 .hero{
@@ -47,16 +54,12 @@
   text-align: center;
   position: relative;
   top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .text-hero{
   position: relative;
   top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
