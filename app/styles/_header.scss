@@ -1,1 +1,83 @@
 // Styles for the header
+.header{
+  margin-top: 2em;
+}
+
+.companyname{
+  background-image: url("../images/companyname.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 8em;
+  height: 2em;
+}
+
+.search{
+ width: 25em;
+ border-color: $grey;
+ background-image: url("../images/search.png");
+ background-repeat: no-repeat;
+ background-position: left;
+}
+
+.counter{
+  background-image: url("../images/counter.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  float:center;
+  width:8em;
+  height:2em;
+}
+
+.menu{
+  margin-top: 1.5em;
+  background-color: $turquoise;
+  text-align: center;
+  font-size: 14px;
+  cursor:pointer;
+
+  a {
+    color:white;
+  }
+}
+
+.colum{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 1.5em;
+
+  &:last-child{
+    border-right:none;
+  }
+}
+
+.hero{
+  height: 450px;
+  background-color: $dark;
+  color: $white;
+}
+
+.img-hero{
+  position: relative;
+  top: 5%;
+}
+
+.text{
+ position: relative;
+ top: 25%;
+}
+
+.introduction {
+  font-size: 16px;
+}
+
+.button{
+  color:white;
+  background-color: $turquoise;
+  border: 2px solid $white;
+  cursor:pointer;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+

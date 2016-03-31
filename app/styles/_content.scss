@@ -1,0 +1,24 @@
+.products{
+  margin-top: 5em;
+  font-weight: bold;
+  color:$gdark;
+}
+
+.description{
+  border-right: 3px solid $grey;
+  height: 7em;
+}
+
+.featured{
+  margin-top:1.5em;
+  color:$white;
+  background-color:$dark;
+  height: 35px;
+}
+
+.item{
+  width: 15em;
+  height: 15em;
+  border: 2px solid $grey;
+  border-bottom: 5px solid $dark;
+}
