@@ -1,12 +1,7 @@
 .products{
-  margin-top: 1.5em;
-  color:$gdark;
+  margin-top: 5em;
   font-weight: bold;
-}
-
-.product1 {
-  border-left: 3px solid $grey;
-  height: 7em;
+  color:$gdark;
 }
 
 .description{
@@ -15,13 +10,15 @@
 }
 
 .featured{
-  margin-top:3em;
-  padding:0.5em;
+  margin-top:1.5em;
   color:$white;
   background-color:$dark;
-  font-size:20px;
+  height: 35px;
 }
 
-.other2{
-  margin-top: 3em;
+.item{
+  width: 15em;
+  height: 15em;
+  border: 2px solid $grey;
+  border-bottom: 5px solid $dark;
 }

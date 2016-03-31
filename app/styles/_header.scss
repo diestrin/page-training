@@ -22,6 +22,7 @@
 .counter{
   background-image: url("../images/counter.png");
   background-repeat: no-repeat;
+  background-position: right;
   float:center;
   width:8em;
   height:2em;
@@ -52,23 +53,17 @@
 .hero{
   height: 450px;
   background-color: $dark;
-  color: white;
+  color: $white;
 }
 
 .img-hero{
   position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  top: 5%;
 }
 
 .text{
  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+ top: 25%;
 }
 
 .introduction {
@@ -78,7 +73,7 @@
 .button{
   color:white;
   background-color: $turquoise;
-  border: 2px solid white;
+  border: 2px solid $white;
   cursor:pointer;
 }
 
